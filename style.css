@@ -1,0 +1,78 @@
+:root {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    background-color: black;
+    font-family: "Outfit", sans-serif;
+    img {
+        max-width: 99%;
+    }
+    
+    #title, #quote, #all_quotes, #for_quote, #collected {
+        color: white;
+    }
+    
+    #title, #generator {
+        text-align: center;
+    }
+    
+    #title {
+        font-optical-sizing: auto;
+        font-weight: 100%;
+        font-style: normal;
+        font-size: 10vw;
+    }
+    
+    #quote {
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        list-style: numbers;
+        font-size: 3.5vw;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    
+    #for_quote {
+        font-weight: bold;
+        border: none;
+        font-family: "Outfit", sans-serif;
+        font-size: 2vw;
+        border-radius: 40px;
+        box-shadow: white 0 0 1.5vw 0;
+        transition: 0.5s ease-in-out;
+        scale: 1;
+        background-color: black;
+        padding: 1vw;
+    }
+
+    #generator {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #for_quote:hover {
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        transition: 0.5s ease-in-out;
+        scale: 1.1;
+        box-shadow: white 0 0 0.75vw 0;
+    }
+
+    #collected {
+        padding-top: 5vh;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    #all_quotes {
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        list-style: numbers;
+        word-wrap: break-word;
+        text-align: center;
+    }
+}

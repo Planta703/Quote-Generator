@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "lib": ["dom", "ES2022"]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
